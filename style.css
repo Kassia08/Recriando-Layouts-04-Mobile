@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+:root {
+    font-size: 62,5%;
+}
+
+.app {
+    max-width: 43.0rem;
+    margin: 0 auto;
+}
+
+header, main,
+sidebar, footer,
+.gallery, sidebar h1 {
+    padding: 0 18.0rem;
+    justify-content: center;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+header {
+    padding: 1.2rem 2.8rem;
+
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+
+    background: #065E7C;
+}
+
+.input-wrapper label {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;   
+}
+
+.input-wrapper input {
+    background-color: #387E96;
+    
+    border-radius: .4rem;
+    border-color: #387E96;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.input-wrapper input::placeholder {
+    opacity: 0.56;
+    color: #FFFFFF;
+}
+
+.logo main {
+    width: 4.0rem;
+    height: 4.0rem;
+}
+
+main h1 {
+    margin-top: 3.1rem;
+    margin-bottom: .8rem;
+
+    color: #202024;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.0rem;
+}
+
+main p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.0rem;
+
+    color: #121214;
+
+    margin-bottom: 3.4rem;
+}
+
+sidebar h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.0rem;
+
+    color: #202024;
+    margin-bottom: 3.2rem;
+}
+
+.item {
+    display: flex;
+    gap: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+sidebar h2 {
+    font-size: 1.8;
+    font-weight: 700;
+    line-height: 2.4rem;
+
+    color: #202024;
+}
+
+sidebar p {
+    font-size: 1.4;
+    font-weight: 400;
+    line-height: 2.0rem;
+
+    color: #121214;
+}
+
+sidebar  img {
+    width: 15.1rem;
+    height: 8.4rem;
+}
+
+.details {
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    padding: 1.6rem auto;
+    height: 6.4rem;
+
+    background-color: #387E96;
+
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+
+    align-items: center;
+    justify-content: center;
+}
