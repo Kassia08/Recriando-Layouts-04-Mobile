@@ -33,6 +33,5 @@ Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!] (https://dis
 ---
 
 Esse projeto foi realizado pela aluna Kássia Almeida Moura em 2024.
-# Projeto-07
 
 # Recriando-Layouts-04-Mobile
